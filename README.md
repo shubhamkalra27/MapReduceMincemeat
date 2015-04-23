@@ -50,4 +50,12 @@ Password cracking - passCrack.py - Given a string of characters on the command l
 ```bash
 python passCrack.py d077f
 #this might take a good 15 minutes
+# expected answer {'found': ['cat', 'gkf9']}
+
+python passCrack.py 0832c
+# expected answer {'found': ['cats', 'zb8e']}
 ```
+
+I would sping multiple servers when running this command. 
+
+
